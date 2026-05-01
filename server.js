@@ -15,7 +15,7 @@ const CONFIG = {
   title: process.env.APP_TITLE || 'OFAS Chat Assistant',
   welcomeMessage:
     process.env.WELCOME_MESSAGE ||
-    '💖OFAS Bot สวัสดีค่า💖 OFAS Bot เป็นแชทบอทผู้ช่วยด้านการเงินของจุฬาฯ พร้อมให้ข้อมูลด้านการเงินค่ะ'
+    '💖OFAS สวัสดีค่ะ 💖 OFAS Chat Assistant เป็นแชทบอทผู้ช่วยด้านการเงินของจุฬาฯ พร้อมให้ข้อมูลด้านการเงินค่ะ'
 };
 
 app.use(express.json({ limit: '1mb' }));
